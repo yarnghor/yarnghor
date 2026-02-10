@@ -177,3 +177,12 @@ footer {
 .contact a:hover {
   text-decoration: underline;
 }
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+body {
+  margin: 0;
+}
+
