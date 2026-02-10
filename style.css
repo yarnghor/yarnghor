@@ -194,5 +194,58 @@ a {
 a:hover {
   text-decoration: underline;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #faf7f2;
+  color: #3e2c1c;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 16px;
+  background: #f3ede4;
+  justify-content: center;
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #5a3a24;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 18px;
+  background: #7a4a2e;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
 
 
