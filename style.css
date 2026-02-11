@@ -318,6 +318,43 @@ img {
     height: auto;
     border-radius: 10px;
 }
+/* ===== SHOP LAYOUT ===== */
+
+section {
+  padding: 60px 10%;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 12px;
+}
+
+.product h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #555;
+}
+
 
 
 
