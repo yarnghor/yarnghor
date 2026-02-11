@@ -313,6 +313,12 @@ body {
   z-index: 2000;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+.product img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
 
 
 
