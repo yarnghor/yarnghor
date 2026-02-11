@@ -369,6 +369,25 @@ h2 {
 .whatsapp-btn:hover {
     background-color: #1ebe5d;
 }
+section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.product img {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+}
+
 
 
 
